@@ -16,7 +16,7 @@ A simple Python CLI utility for generating project folder structures from hardco
 
 Clone the repository:
 ```bash
-git clone https://github.com/your-username/template-generator.git
+git clone https://github.com/Nahom32/template-generator.git
 cd template-generator
 ```
 
