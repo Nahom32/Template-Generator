@@ -29,38 +29,23 @@ if args.template_file:
         # Define your hardcoded templates here
         templates = {
             "default": {
-                "my_new_project": {
-                    "src": {
-                        "main": {
-                            "java": {},
-                            "resources": {
-                                "application.properties": "# Default application properties"
-                            }
-                        },
-                        "test": {
-                            "java": {},
-                            "resources": {}
-                        }
+                "app": {
+                        "__init__.py": '', 
                     },
-                    "docs": {
-                        "README.md": "# My New Project\n\nThis is a placeholder README file.",
-                        "LICENSE.txt": "MIT License\n\n(C) 2025 Your Name"
+                "docs": {
+                        "__init__.py": '',
                     },
-                    "config": {
-                        "settings.py": "DEBUG = True"
+                "notebooks": {
+                        "__init__.py": '',
                     },
-                    "scripts": {
-                        "build.sh": "#!/bin/bash\n\necho 'Building project...'"
+                "models": {
+                        "__init__.py": '',
                     },
-                    ".gitignore": """
-# Gitignore defaults
-.DS_Store
-*.pyc
-venv/
-__pycache__/
-node_modules/
-                    """
-                }
+                ".gitignore": '''
+                    .env
+                    **/*__pycache__
+                    
+                '''
             },
             "web_project": {
                 "web_app": {
