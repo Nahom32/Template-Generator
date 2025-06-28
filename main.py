@@ -46,6 +46,7 @@ if args.template_file:
                     **/*__pycache__
                     
                 '''
+                "Dockerfile":""
             },
             "web_project": {
                 "web_app": {
