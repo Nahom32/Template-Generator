@@ -2,7 +2,7 @@ import argparse
 import os
 from pathlib import Path
 import json
-from Typing import Dict, Any
+from typing import Dict, Any
 
 
 def create_folder_structure(base_path: Path, structure: Dict[Any,Any]):
