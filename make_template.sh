@@ -3,7 +3,7 @@
 # Define the absolute path to your Python script
 # It's best practice to put your scripts in a central location, e.g., ~/.local/bin/
 # For demonstration, let's assume it's in a 'scripts' directory in your home folder.
-PYTHON_SCRIPT_PATH="$HOME/main.py"
+PYTHON_SCRIPT_PATH="$HOME/Template-Generator/main.py"
 
 # --- Check if the Python script exists ---
 if [ ! -f "$PYTHON_SCRIPT_PATH" ]; then
